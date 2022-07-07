@@ -1,0 +1,55 @@
+input {
+    background-color: #F5F8FA;
+    color: #5E6278;
+    padding: 20px;
+    margin-top: 10px;
+    border: 1px solid #F5F8FA;
+}
+
+input:focus {
+    outline: none;
+    background-color: #E4E6EF;
+}
+
+button {
+    border: 0px;
+    padding: calc(0.75rem + 1px) calc(1.5rem + 1px);
+    border-radius: 5px;
+    background-color: #009EF7;
+    color: #fff;
+}
+
+#display {
+    border: 1px solid #F5F8FA;
+    height: 300px;
+    overflow-y: scroll;
+    width: 500px;
+}
+
+#display p {
+    padding: 15px;
+    background-color: #F1FAFF;
+    margin: 8px;
+    border-radius: 5px;
+}
+
+#display p span {
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1 {
+    text-align: center;
+}

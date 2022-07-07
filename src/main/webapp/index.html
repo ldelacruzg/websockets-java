@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="./css/index.css"/>
+    </head>
+    <body>
+        <h1>Chat - WebSocket with Java</h1>
+        <div class="container">
+            <div id="main">
+                <form method="post">
+                    <input 
+                        type="text" 
+                        name="userName" 
+                        id="userName" 
+                        placeholder="Introduzca su nombre..."
+                        autocomplete="off" />
+                    <button id="btnEnterChat" type="button">Conectar</button>
+                </form>
+            </div>
+            <div id="chat">
+                <div id="display">
+                </div>
+                <form method="post">
+                    <input 
+                        type="text" 
+                        name="message" 
+                        id="message" 
+                        placeholder="Introduzca un mensaje..."
+                        autocomplete="off" />
+                    <input type="file" name="file" id="file">
+                    <button id="btnSend">Enviar</button>
+                    <button id="btnDisconnect">Desconectar</button>
+                </form>
+            </div>
+        </div>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
